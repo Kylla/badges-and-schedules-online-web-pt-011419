@@ -11,5 +11,7 @@ end
   badges
 end
 
-def assign_rooms(rooms)
+def assign_rooms(speakers)
+  room.each_with_index do |names, i|
+    
   
