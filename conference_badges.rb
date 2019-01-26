@@ -20,7 +20,9 @@ room
 end
 
 def printer(all_together)
-  puts ""
+  new_arr = []
+  all_together.each do |badges, room|
+    
   
   
   
