@@ -20,10 +20,8 @@ room
 end
 
 def printer(all_together)
-  new_arr = []
+  batch_badge_creator()
   all_together.each do |badges, room|
-end
-new_arr
 end
 
     
