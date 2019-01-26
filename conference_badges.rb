@@ -16,7 +16,7 @@ def assign_rooms(speakers)
     speakers.each_with_index do |names, i|
       room << "Hello, #{names}! You'll be assigned to room #{i+1}!"
     end
-    room
+    print room
   end
     
   
