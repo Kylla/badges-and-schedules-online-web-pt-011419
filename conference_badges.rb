@@ -23,7 +23,7 @@ def printer(all_together)
   new_arr = []
   all_together.each do {|badges, room|}
 end
-all_together
+new_arr
 end
 
     
