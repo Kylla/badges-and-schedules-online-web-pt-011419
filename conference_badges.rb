@@ -20,8 +20,8 @@ room
 end
 
 def printer(all_together)
-  batch_badge_creator()
-  all_together.each do |badges, room|
+  batch_badge_creator(all_together).each do |badges| badges
+  assign_rooms(all_together).each do |room| room
 end
 
     
