@@ -12,6 +12,8 @@ end
 end
 
 def assign_rooms(speakers)
-  room.each_with_index do |names, i|
+  room = []
+    speakers.each_with_index do |names, i|
+      
     
   
